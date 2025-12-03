@@ -1,0 +1,516 @@
+================================================================================
+WORKFLOW: AI Testimonial Extractor Agent: Feedback to Marketing Gold
+================================================================================
+
+📋 BASIC INFORMATION
+------------------------------
+ID: 4449
+Name: AI Testimonial Extractor Agent: Feedback to Marketing Gold
+Total Views: 248
+Created At: 2025-05-28T07:27:22.201Z
+Purchase URL: None
+
+👤 AUTHOR INFORMATION
+------------------------------
+Name: Yaron Been
+Username: yaron-nofluff
+Verified: ✅ Yes
+Bio: Building AI Agents and Automations | Growth Marketer | Entrepreneur | Book Author & Podcast Host
+
+If you need any help with Automations, feel free to reach out via linkedin:
+https://www.linkedin.com/in/yaronbeen/
+
+And check out my Youtube channel:
+https://www.youtube.com/@YaronBeen/videos
+Links: nofluff.online
+
+📝 DESCRIPTION
+------------------------------
+Transform raw customer feedback into powerful testimonial quotes automatically.
+
+This intelligent workflow monitors feedback forms, uses AI to identify and extract the most emotionally engaging testimonial content, and organizes everything into a searchable database for your marketing campaigns - turning every piece of customer feedback into potential marketing assets.
+
+🚀 What It Does
+
+Smart Feedback Monitoring: Automatically detects new customer feedback submissions from Google Forms and triggers testimonial extraction within minutes.
+
+AI-Powered Quote Extraction: Uses Google Gemini to analyze feedback and extract short, emotionally engaging testimonial quotes while filtering out neutral or irrelevant content.
+
+Marketing-Ready Output: Focuses on impactful phrases and statements that work perfectly for websites, social media, ads, and sales materials.
+
+Automated Database Building: Creates and maintains a searchable testimonial library in Google Sheets with customer details and extracted quotes.
+
+Instant Team Notifications: Sends immediate email alerts to your marketing team with new testimonials, ensuring no valuable social proof goes unused.
+
+🎯 Key Benefits
+
+✅ Never Miss Marketing Gold: Automatically extract value from every feedback submission  
+✅ Save 8+ Hours Weekly: Eliminate manual review of feedback for testimonials  
+✅ Build Social Proof Library: Create searchable database of customer quotes  
+✅ Boost Conversion Rates: Use authentic testimonials across marketing campaigns  
+✅ Identify Happy Customers: Spot satisfied clients for case studies and referrals  
+✅ Scale Content Creation: Generate testimonials faster than customers submit feedback  
+
+🏢 Perfect For
+
+Businesses Needing Social Proof
+E-commerce stores showcasing product satisfaction
+SaaS companies highlighting user success stories
+Service businesses building trust and credibility
+Coaches and consultants demonstrating client results
+
+Marketing Applications
+Website Content**: Populate testimonial sections automatically
+Social Media**: Create quote posts and success story content
+Sales Materials**: Include powerful customer quotes in proposals
+Email Marketing**: Add authentic testimonials to campaigns
+
+⚙️ What's Included
+
+Complete Workflow Setup: Ready-to-deploy n8n workflow with all integrations configured
+Google Forms Integration: Automatically processes new feedback submissions
+AI Quote Extraction: Google Gemini identifies most impactful testimonial content
+Database Management: Organized Google Sheets storage with customer information
+Team Notifications: Instant email alerts to marketing team members
+Setup Documentation: Complete configuration and customization guide
+
+🔧 Technical Requirements
+
+n8n Platform**: Cloud or self-hosted instance
+Google Workspace**: For Forms, Sheets, and Gmail integration
+Google Gemini API**: For AI-powered testimonial extraction (free tier available)
+Customer Feedback**: Existing or new feedback collection process
+
+📊 Before & After Examples
+
+Before (Raw Customer Feedback):
+"I was really struggling with managing my team's projects and keeping track of all the deadlines. Everything was scattered across different tools and I was spending way too much time just trying to figure out what everyone was working on. Since we started using your project management software about 6 months ago, it's been a complete game changer. Now I can see everything at a glance, our team communication has improved dramatically, and we're actually finishing projects ahead of schedule. The reporting features are amazing too - I can finally show my boss concrete data about our team's productivity. I honestly don't know how we managed without it. The customer support team has been fantastic as well, always quick to help when we had questions during setup."
+
+After (AI Extracted Testimonial):
+"Complete game changer - now I can see everything at a glance, our team communication has improved dramatically, and we're actually finishing projects ahead of schedule."
+
+Healthcare Example:
+
+Raw Feedback:
+"I had been dealing with chronic back pain for over 3 years and had tried everything - physical therapy, medication, different doctors. Nothing seemed to help long-term. When I found Dr. Martinez, I was honestly pretty skeptical because I'd been disappointed so many times before. But after our first consultation, I felt hopeful for the first time in years. She really listened to me and explained everything clearly. The treatment plan she developed was comprehensive but manageable. Within just 2 months, I was experiencing significant pain reduction, and now after 6 months, I'm practically pain-free. I can play with my kids again, sleep through the night, and even started hiking on weekends. Dr. Martinez didn't just treat my symptoms - she helped me get my life back."
+
+Extracted Testimonial:
+"Within just 2 months, I was experiencing significant pain reduction, and now I'm practically pain-free. Dr. Martinez didn't just treat my symptoms - she helped me get my life back."
+
+🎨 Customization Options
+
+Industry-Specific Extraction: Tailor AI prompts for healthcare, technology, finance, retail terminology
+Quote Length Control: Adjust extraction for short punchy quotes vs longer detailed testimonials
+Sentiment Targeting: Focus on specific emotions like excitement, relief, satisfaction, transformation
+Multi-Channel Forms: Connect multiple feedback sources to one testimonial database
+Approval Workflows: Add human review step before testimonials go live
+CRM Integration: Connect extracted testimonials to customer records
+
+🔄 How It Works
+
+Customer submits feedback via your Google Form
+Workflow detects new submission within 1 minute automatically
+AI analyzes feedback content to identify most impactful statements
+Testimonial quote is extracted and formatted for marketing use
+Quote is saved to database with customer details and timestamp
+Marketing team receives email with new testimonial content
+
+💡 Use Case Examples
+
+SaaS Company: Automatically extract user success quotes from feature feedback surveys for website testimonials
+
+E-commerce Store: Turn product review submissions into powerful testimonial quotes for product pages and ads
+
+Healthcare Practice: Extract patient satisfaction quotes from feedback forms for website and marketing materials
+
+Consulting Firm: Convert client project feedback into testimonials highlighting business transformation results
+
+📈 Expected Results
+
+300% increase** in testimonial collection vs manual methods
+90% time savings** on testimonial creation and organization
+50% improvement** in marketing content authenticity
+25% boost** in conversion rates using extracted testimonials
+Unlimited scalability** as feedback volume grows
+
+🛠️ Setup & Support
+
+Quick Deployment: Complete setup in 20 minutes with included guide
+Pre-Built Prompts: AI extraction prompts optimized for different industries
+Template Library: Ready-to-use feedback forms and testimonial layouts
+Video Tutorial: Complete walkthrough from setup to first extracted testimonial
+
+📞 Get Help & Learn More
+
+🎥 Free Video Tutorials  
+YouTube Channel: https://www.youtube.com/@YaronBeen/videos
+Complete setup and configuration guide
+
+💼 Professional Support  
+LinkedIn: https://www.linkedin.com/in/yaronbeen/
+Connect for testimonial marketing strategy consulting
+Share your social proof automation success stories
+Access exclusive templates for different business types
+
+📧 Direct Support  
+Email: Yaron@nofluff.online
+Technical setup assistance and customization help
+AI prompt optimization for your specific business
+Integration with existing marketing and CRM systems
+Response within 24 hours
+
+🔧 NODES USED
+------------------------------
+• Google Sheets - Categories: Productivity, Data & Storage
+• Gmail - Categories: HITL, Communication
+• Basic LLM Chain - Categories: AI, Langchain
+• Google Gemini Chat Model - Categories: AI, Langchain
+
+Total Nodes: 4
+
+📊 RAW DATA (JSON)
+------------------------------
+{
+  "id": 4449,
+  "name": "AI Testimonial Extractor Agent: Feedback to Marketing Gold",
+  "totalViews": 248,
+  "purchaseUrl": null,
+  "user": {
+    "id": 93770,
+    "name": "Yaron Been",
+    "username": "yaron-nofluff",
+    "bio": "Building AI Agents and Automations | Growth Marketer | Entrepreneur | Book Author & Podcast Host\n\nIf you need any help with Automations, feel free to reach out via linkedin:\nhttps://www.linkedin.com/in/yaronbeen/\n\nAnd check out my Youtube channel:\nhttps://www.youtube.com/@YaronBeen/videos",
+    "verified": true,
+    "links": "[\"nofluff.online\"]",
+    "avatar": "https://gravatar.com/avatar/a4e4dcaa1f76ff5266bbf80e8df86d22efda890474c68f7796e72fd82e3f2375?r=pg&d=retro&size=200"
+  },
+  "description": "\nTransform raw customer feedback into powerful testimonial quotes automatically.\n\nThis intelligent workflow monitors feedback forms, uses AI to identify and extract the most emotionally engaging testimonial content, and organizes everything into a searchable database for your marketing campaigns - turning every piece of customer feedback into potential marketing assets.\n\n🚀 What It Does\n\nSmart Feedback Monitoring: Automatically detects new customer feedback submissions from Google Forms and triggers testimonial extraction within minutes.\n\nAI-Powered Quote Extraction: Uses Google Gemini to analyze feedback and extract short, emotionally engaging testimonial quotes while filtering out neutral or irrelevant content.\n\nMarketing-Ready Output: Focuses on impactful phrases and statements that work perfectly for websites, social media, ads, and sales materials.\n\nAutomated Database Building: Creates and maintains a searchable testimonial library in Google Sheets with customer details and extracted quotes.\n\nInstant Team Notifications: Sends immediate email alerts to your marketing team with new testimonials, ensuring no valuable social proof goes unused.\n\n🎯 Key Benefits\n\n✅ Never Miss Marketing Gold: Automatically extract value from every feedback submission  \n✅ Save 8+ Hours Weekly: Eliminate manual review of feedback for testimonials  \n✅ Build Social Proof Library: Create searchable database of customer quotes  \n✅ Boost Conversion Rates: Use authentic testimonials across marketing campaigns  \n✅ Identify Happy Customers: Spot satisfied clients for case studies and referrals  \n✅ Scale Content Creation: Generate testimonials faster than customers submit feedback  \n\n🏢 Perfect For\n\nBusinesses Needing Social Proof\nE-commerce stores showcasing product satisfaction\nSaaS companies highlighting user success stories\nService businesses building trust and credibility\nCoaches and consultants demonstrating client results\n\nMarketing Applications\nWebsite Content**: Populate testimonial sections automatically\nSocial Media**: Create quote posts and success story content\nSales Materials**: Include powerful customer quotes in proposals\nEmail Marketing**: Add authentic testimonials to campaigns\n\n⚙️ What's Included\n\nComplete Workflow Setup: Ready-to-deploy n8n workflow with all integrations configured\nGoogle Forms Integration: Automatically processes new feedback submissions\nAI Quote Extraction: Google Gemini identifies most impactful testimonial content\nDatabase Management: Organized Google Sheets storage with customer information\nTeam Notifications: Instant email alerts to marketing team members\nSetup Documentation: Complete configuration and customization guide\n\n🔧 Technical Requirements\n\nn8n Platform**: Cloud or self-hosted instance\nGoogle Workspace**: For Forms, Sheets, and Gmail integration\nGoogle Gemini API**: For AI-powered testimonial extraction (free tier available)\nCustomer Feedback**: Existing or new feedback collection process\n\n📊 Before & After Examples\n\nBefore (Raw Customer Feedback):\n\"I was really struggling with managing my team's projects and keeping track of all the deadlines. Everything was scattered across different tools and I was spending way too much time just trying to figure out what everyone was working on. Since we started using your project management software about 6 months ago, it's been a complete game changer. Now I can see everything at a glance, our team communication has improved dramatically, and we're actually finishing projects ahead of schedule. The reporting features are amazing too - I can finally show my boss concrete data about our team's productivity. I honestly don't know how we managed without it. The customer support team has been fantastic as well, always quick to help when we had questions during setup.\"\n\nAfter (AI Extracted Testimonial):\n\"Complete game changer - now I can see everything at a glance, our team communication has improved dramatically, and we're actually finishing projects ahead of schedule.\"\n\nHealthcare Example:\n\nRaw Feedback:\n\"I had been dealing with chronic back pain for over 3 years and had tried everything - physical therapy, medication, different doctors. Nothing seemed to help long-term. When I found Dr. Martinez, I was honestly pretty skeptical because I'd been disappointed so many times before. But after our first consultation, I felt hopeful for the first time in years. She really listened to me and explained everything clearly. The treatment plan she developed was comprehensive but manageable. Within just 2 months, I was experiencing significant pain reduction, and now after 6 months, I'm practically pain-free. I can play with my kids again, sleep through the night, and even started hiking on weekends. Dr. Martinez didn't just treat my symptoms - she helped me get my life back.\"\n\nExtracted Testimonial:\n\"Within just 2 months, I was experiencing significant pain reduction, and now I'm practically pain-free. Dr. Martinez didn't just treat my symptoms - she helped me get my life back.\"\n\n🎨 Customization Options\n\nIndustry-Specific Extraction: Tailor AI prompts for healthcare, technology, finance, retail terminology\nQuote Length Control: Adjust extraction for short punchy quotes vs longer detailed testimonials\nSentiment Targeting: Focus on specific emotions like excitement, relief, satisfaction, transformation\nMulti-Channel Forms: Connect multiple feedback sources to one testimonial database\nApproval Workflows: Add human review step before testimonials go live\nCRM Integration: Connect extracted testimonials to customer records\n\n🔄 How It Works\n\nCustomer submits feedback via your Google Form\nWorkflow detects new submission within 1 minute automatically\nAI analyzes feedback content to identify most impactful statements\nTestimonial quote is extracted and formatted for marketing use\nQuote is saved to database with customer details and timestamp\nMarketing team receives email with new testimonial content\n\n💡 Use Case Examples\n\nSaaS Company: Automatically extract user success quotes from feature feedback surveys for website testimonials\n\nE-commerce Store: Turn product review submissions into powerful testimonial quotes for product pages and ads\n\nHealthcare Practice: Extract patient satisfaction quotes from feedback forms for website and marketing materials\n\nConsulting Firm: Convert client project feedback into testimonials highlighting business transformation results\n\n📈 Expected Results\n\n300% increase** in testimonial collection vs manual methods\n90% time savings** on testimonial creation and organization\n50% improvement** in marketing content authenticity\n25% boost** in conversion rates using extracted testimonials\nUnlimited scalability** as feedback volume grows\n\n🛠️ Setup & Support\n\nQuick Deployment: Complete setup in 20 minutes with included guide\nPre-Built Prompts: AI extraction prompts optimized for different industries\nTemplate Library: Ready-to-use feedback forms and testimonial layouts\nVideo Tutorial: Complete walkthrough from setup to first extracted testimonial\n\n📞 Get Help & Learn More\n\n🎥 Free Video Tutorials  \nYouTube Channel: https://www.youtube.com/@YaronBeen/videos\nComplete setup and configuration guide\n\n💼 Professional Support  \nLinkedIn: https://www.linkedin.com/in/yaronbeen/\nConnect for testimonial marketing strategy consulting\nShare your social proof automation success stories\nAccess exclusive templates for different business types\n\n📧 Direct Support  \nEmail: Yaron@nofluff.online\nTechnical setup assistance and customization help\nAI prompt optimization for your specific business\nIntegration with existing marketing and CRM systems\nResponse within 24 hours\n",
+  "createdAt": "2025-05-28T07:27:22.201Z",
+  "nodes": [
+    {
+      "id": 18,
+      "icon": "file:googleSheets.svg",
+      "name": "n8n-nodes-base.googleSheets",
+      "codex": {
+        "data": {
+          "alias": [
+            "CSV",
+            "Sheet",
+            "Spreadsheet",
+            "GS"
+          ],
+          "resources": {
+            "generic": [
+              {
+                "url": "https://n8n.io/blog/love-at-first-sight-ricardos-n8n-journey/",
+                "icon": "❤️",
+                "label": "Love at first sight: Ricardo’s n8n journey"
+              },
+              {
+                "url": "https://n8n.io/blog/why-business-process-automation-with-n8n-can-change-your-daily-life/",
+                "icon": "🧬",
+                "label": "Why business process automation with n8n can change your daily life"
+              },
+              {
+                "url": "https://n8n.io/blog/automatically-adding-expense-receipts-to-google-sheets-with-telegram-mindee-twilio-and-n8n/",
+                "icon": "🧾",
+                "label": "Automatically Adding Expense Receipts to Google Sheets with Telegram, Mindee, Twilio, and n8n"
+              },
+              {
+                "url": "https://n8n.io/blog/supercharging-your-conference-registration-process-with-n8n/",
+                "icon": "🎫",
+                "label": "Supercharging your conference registration process with n8n"
+              },
+              {
+                "url": "https://n8n.io/blog/creating-triggers-for-n8n-workflows-using-polling/",
+                "icon": "⏲",
+                "label": "Creating triggers for n8n workflows using polling"
+              },
+              {
+                "url": "https://n8n.io/blog/no-code-ecommerce-workflow-automations/",
+                "icon": "store",
+                "label": "6 e-commerce workflows to power up your Shopify s"
+              },
+              {
+                "url": "https://n8n.io/blog/migrating-community-metrics-to-orbit-using-n8n/",
+                "icon": "📈",
+                "label": "Migrating Community Metrics to Orbit using n8n"
+              },
+              {
+                "url": "https://n8n.io/blog/automate-google-apps-for-productivity/",
+                "icon": "💡",
+                "label": "15 Google apps you can combine and automate to increase productivity"
+              },
+              {
+                "url": "https://n8n.io/blog/your-business-doesnt-need-you-to-operate/",
+                "icon": " 🖥️",
+                "label": "Hey founders! Your business doesn't need you to operate"
+              },
+              {
+                "url": "https://n8n.io/blog/how-honest-burgers-use-automation-to-save-100k-per-year/",
+                "icon": "🍔",
+                "label": "How Honest Burgers Use Automation to Save $100k per year"
+              },
+              {
+                "url": "https://n8n.io/blog/how-a-digital-strategist-uses-n8n-for-online-marketing/",
+                "icon": "💻",
+                "label": "How a digital strategist uses n8n for online marketing"
+              },
+              {
+                "url": "https://n8n.io/blog/why-this-product-manager-loves-workflow-automation-with-n8n/",
+                "icon": "🧠",
+                "label": "Why this Product Manager loves workflow automation with n8n"
+              },
+              {
+                "url": "https://n8n.io/blog/sending-automated-congratulations-with-google-sheets-twilio-and-n8n/",
+                "icon": "🙌",
+                "label": "Sending Automated Congratulations with Google Sheets, Twilio, and n8n "
+              },
+              {
+                "url": "https://n8n.io/blog/how-a-membership-development-manager-automates-his-work-and-investments/",
+                "icon": "📈",
+                "label": "How a Membership Development Manager automates his work and investments"
+              },
+              {
+                "url": "https://n8n.io/blog/aws-workflow-automation/",
+                "label": "7 no-code workflow automations for Amazon Web Services"
+              }
+            ],
+            "primaryDocumentation": [
+              {
+                "url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/"
+              }
+            ],
+            "credentialDocumentation": [
+              {
+                "url": "https://docs.n8n.io/integrations/builtin/credentials/google/oauth-single-service/"
+              }
+            ]
+          },
+          "categories": [
+            "Data & Storage",
+            "Productivity"
+          ],
+          "nodeVersion": "1.0",
+          "codexVersion": "1.0"
+        }
+      },
+      "group": "[\"input\",\"output\"]",
+      "defaults": {
+        "name": "Google Sheets"
+      },
+      "iconData": {
+        "type": "file",
+        "fileBuffer": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGZpbGw9IiMyOEI0NDYiIGQ9Ik0zNS42OSAxIDUyIDE3LjIyNXYzOS4wODdhMy42NyAzLjY3IDAgMCAxLTEuMDg0IDIuNjFBMy43IDMuNyAwIDAgMSA0OC4yOTMgNjBIMTIuNzA3YTMuNyAzLjcgMCAwIDEtMi42MjMtMS4wNzhBMy42NyAzLjY3IDAgMCAxIDkgNTYuMzEyVjQuNjg4YTMuNjcgMy42NyAwIDAgMSAxLjA4NC0yLjYxQTMuNyAzLjcgMCAwIDEgMTIuNzA3IDF6Ii8+PHBhdGggZmlsbD0iIzZBQ0U3QyIgZD0iTTM1LjY5IDEgNTIgMTcuMjI1SDM5LjM5N2MtMi4wNTQgMC0zLjcwNy0xLjgyOS0zLjcwNy0zLjg3MnoiLz48cGF0aCBmaWxsPSIjMjE5QjM4IiBkPSJNMzkuMjExIDE3LjIyNSA1MiAyMi40OHYtNS4yNTV6Ii8+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTIwLjEyIDMxLjk3NWMwLS44MTcuNjYyLTEuNDc1IDEuNDgzLTEuNDc1aDE3Ljc5NGMuODIxIDAgMS40ODIuNjU4IDEuNDgyIDEuNDc1djE1LjQ4N2MwIC44MTgtLjY2MSAxLjQ3NS0xLjQ4MiAxLjQ3NUgyMS42MDNhMS40NzYgMS40NzYgMCAwIDEtMS40ODItMS40NzRWMzEuOTc0em0yLjIyNSAxLjQ3NWg2LjY3MnYyLjIxMmgtNi42NzJ6bTAgNS4xNjJoNi42NzJ2Mi4yMTNoLTYuNjcyem0wIDUuMTYzaDYuNjcydjIuMjEyaC02LjY3MnptOS42MzgtMTAuMzI1aDYuNjcydjIuMjEyaC02LjY3MnptMCA1LjE2Mmg2LjY3MnYyLjIxM2gtNi42NzJ6bTAgNS4xNjNoNi42NzJ2Mi4yMTJoLTYuNjcyeiIvPjxwYXRoIGZpbGw9IiMyOEI0NDYiIGQ9Ik0zNC42OSAwIDUxIDE2LjIyNXYzOS4wODdhMy42NyAzLjY3IDAgMCAxLTEuMDg0IDIuNjFBMy43IDMuNyAwIDAgMSA0Ny4yOTMgNTlIMTEuNzA3YTMuNyAzLjcgMCAwIDEtMi42MjMtMS4wNzhBMy42NyAzLjY3IDAgMCAxIDggNTUuMzEyVjMuNjg4YTMuNjcgMy42NyAwIDAgMSAxLjA4NC0yLjYxQTMuNyAzLjcgMCAwIDEgMTEuNzA3IDB6Ii8+PHBhdGggZmlsbD0iIzZBQ0U3QyIgZD0iTTM0LjY5IDAgNTEgMTYuMjI1SDM4LjM5N2MtMi4wNTQgMC0zLjcwNy0xLjgyOS0zLjcwNy0zLjg3MnoiLz48cGF0aCBmaWxsPSIjMjE5QjM4IiBkPSJNMzguMjExIDE2LjIyNSA1MSAyMS40OHYtNS4yNTV6Ii8+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTE5LjEyIDMwLjk3NWMwLS44MTcuNjYyLTEuNDc1IDEuNDgzLTEuNDc1aDE3Ljc5NGMuODIxIDAgMS40ODIuNjU4IDEuNDgyIDEuNDc1djE1LjQ4N2MwIC44MTgtLjY2MSAxLjQ3NS0xLjQ4MiAxLjQ3NUgyMC42MDNhMS40NzYgMS40NzYgMCAwIDEtMS40ODItMS40NzRWMzAuOTc0em0yLjIyNSAxLjQ3NWg2LjY3MnYyLjIxMmgtNi42NzJ6bTAgNS4xNjJoNi42NzJ2Mi4yMTNoLTYuNjcyem0wIDUuMTYzaDYuNjcydjIuMjEyaC02LjY3MnptOS42MzgtMTAuMzI1aDYuNjcydjIuMjEyaC02LjY3MnptMCA1LjE2Mmg2LjY3MnYyLjIxM2gtNi42NzJ6bTAgNS4xNjNoNi42NzJ2Mi4yMTJoLTYuNjcyeiIvPjwvZz48L3N2Zz4="
+      },
+      "displayName": "Google Sheets",
+      "typeVersion": 5,
+      "nodeCategories": [
+        {
+          "id": 3,
+          "name": "Data & Storage"
+        },
+        {
+          "id": 4,
+          "name": "Productivity"
+        }
+      ]
+    },
+    {
+      "id": 356,
+      "icon": "file:gmail.svg",
+      "name": "n8n-nodes-base.gmail",
+      "codex": {
+        "data": {
+          "alias": [
+            "email",
+            "human",
+            "form",
+            "wait",
+            "hitl",
+            "approval"
+          ],
+          "resources": {
+            "generic": [
+              {
+                "url": "https://n8n.io/blog/why-business-process-automation-with-n8n-can-change-your-daily-life/",
+                "icon": "🧬",
+                "label": "Why business process automation with n8n can change your daily life"
+              },
+              {
+                "url": "https://n8n.io/blog/supercharging-your-conference-registration-process-with-n8n/",
+                "icon": "🎫",
+                "label": "Supercharging your conference registration process with n8n"
+              },
+              {
+                "url": "https://n8n.io/blog/no-code-ecommerce-workflow-automations/",
+                "icon": "store",
+                "label": "6 e-commerce workflows to power up your Shopify s"
+              },
+              {
+                "url": "https://n8n.io/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/",
+                "icon": "👥",
+                "label": "How to get started with CRM automation (with 3 no-code workflow ideas"
+              },
+              {
+                "url": "https://n8n.io/blog/automate-google-apps-for-productivity/",
+                "icon": "💡",
+                "label": "15 Google apps you can combine and automate to increase productivity"
+              },
+              {
+                "url": "https://n8n.io/blog/your-business-doesnt-need-you-to-operate/",
+                "icon": " 🖥️",
+                "label": "Hey founders! Your business doesn't need you to operate"
+              },
+              {
+                "url": "https://n8n.io/blog/using-automation-to-boost-productivity-in-the-workplace/",
+                "icon": "💪",
+                "label": "Using Automation to Boost Productivity in the Workplace"
+              }
+            ],
+            "primaryDocumentation": [
+              {
+                "url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.gmail/"
+              }
+            ],
+            "credentialDocumentation": [
+              {
+                "url": "https://docs.n8n.io/integrations/builtin/credentials/google/oauth-single-service/"
+              }
+            ]
+          },
+          "categories": [
+            "Communication",
+            "HITL"
+          ],
+          "nodeVersion": "1.0",
+          "codexVersion": "1.0",
+          "subcategories": {
+            "HITL": [
+              "Human in the Loop"
+            ]
+          }
+        }
+      },
+      "group": "[\"transform\"]",
+      "defaults": {
+        "name": "Gmail"
+      },
+      "iconData": {
+        "type": "file",
+        "fileBuffer": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMTkzIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZmlsbD0iIzQyODVGNCIgZD0iTTU4LjE4MiAxOTIuMDVWOTMuMTRMMjcuNTA3IDY1LjA3NyAwIDQ5LjUwNHYxMjUuMDkxYzAgOS42NTggNy44MjUgMTcuNDU1IDE3LjQ1NSAxNy40NTV6Ii8+PHBhdGggZmlsbD0iIzM0QTg1MyIgZD0iTTE5Ny44MTggMTkyLjA1aDQwLjcyN2M5LjY1OSAwIDE3LjQ1NS03LjgyNiAxNy40NTUtMTcuNDU1VjQ5LjUwNWwtMzEuMTU2IDE3LjgzNy0yNy4wMjYgMjUuNzk4eiIvPjxwYXRoIGZpbGw9IiNFQTQzMzUiIGQ9Im01OC4xODIgOTMuMTQtNC4xNzQtMzguNjQ3IDQuMTc0LTM2Ljk4OUwxMjggNjkuODY4bDY5LjgxOC01Mi4zNjQgNC42NyAzNC45OTItNC42NyA0MC42NDRMMTI4IDE0NS41MDR6Ii8+PHBhdGggZmlsbD0iI0ZCQkMwNCIgZD0iTTE5Ny44MTggMTcuNTA0VjkzLjE0TDI1NiA0OS41MDRWMjYuMjMxYzAtMjEuNTg1LTI0LjY0LTMzLjg5LTQxLjg5LTIwLjk0NXoiLz48cGF0aCBmaWxsPSIjQzUyMjFGIiBkPSJtMCA0OS41MDQgMjYuNzU5IDIwLjA3TDU4LjE4MiA5My4xNFYxNy41MDRMNDEuODkgNS4yODZDMjQuNjEtNy42NiAwIDQuNjQ2IDAgMjYuMjN6Ii8+PC9zdmc+"
+      },
+      "displayName": "Gmail",
+      "typeVersion": 2,
+      "nodeCategories": [
+        {
+          "id": 6,
+          "name": "Communication"
+        },
+        {
+          "id": 28,
+          "name": "HITL"
+        }
+      ]
+    },
+    {
+      "id": 1123,
+      "icon": "fa:link",
+      "name": "@n8n/n8n-nodes-langchain.chainLlm",
+      "codex": {
+        "data": {
+          "alias": [
+            "LangChain"
+          ],
+          "resources": {
+            "primaryDocumentation": [
+              {
+                "url": "https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainllm/"
+              }
+            ]
+          },
+          "categories": [
+            "AI",
+            "Langchain"
+          ],
+          "subcategories": {
+            "AI": [
+              "Chains",
+              "Root Nodes"
+            ]
+          }
+        }
+      },
+      "group": "[\"transform\"]",
+      "defaults": {
+        "name": "Basic LLM Chain",
+        "color": "#909298"
+      },
+      "iconData": {
+        "icon": "link",
+        "type": "icon"
+      },
+      "displayName": "Basic LLM Chain",
+      "typeVersion": 2,
+      "nodeCategories": [
+        {
+          "id": 25,
+          "name": "AI"
+        },
+        {
+          "id": 26,
+          "name": "Langchain"
+        }
+      ]
+    },
+    {
+      "id": 1262,
+      "icon": "file:google.svg",
+      "name": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "codex": {
+        "data": {
+          "resources": {
+            "primaryDocumentation": [
+              {
+                "url": "https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatgooglegemini/"
+              }
+            ]
+          },
+          "categories": [
+            "AI",
+            "Langchain"
+          ],
+          "subcategories": {
+            "AI": [
+              "Language Models",
+              "Root Nodes"
+            ],
+            "Language Models": [
+              "Chat Models (Recommended)"
+            ]
+          }
+        }
+      },
+      "group": "[\"transform\"]",
+      "defaults": {
+        "name": "Google Gemini Chat Model"
+      },
+      "iconData": {
+        "type": "file",
+        "fileBuffer": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNDggNDgiPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNNDQuNSAyMEgyNHY4LjVoMTEuOEMzNC43IDMzLjkgMzAuMSAzNyAyNCAzN2MtNy4yIDAtMTMtNS44LTEzLTEzczUuOC0xMyAxMy0xM2MzLjEgMCA1LjkgMS4xIDguMSAyLjlsNi40LTYuNEMzNC42IDQuMSAyOS42IDIgMjQgMiAxMS44IDIgMiAxMS44IDIgMjRzOS44IDIyIDIyIDIyYzExIDAgMjEtOCAyMS0yMiAwLTEuMy0uMi0yLjctLjUtNCIvPjwvZGVmcz48Y2xpcFBhdGggaWQ9ImIiPjx1c2UgeGxpbms6aHJlZj0iI2EiIG92ZXJmbG93PSJ2aXNpYmxlIi8+PC9jbGlwUGF0aD48cGF0aCBmaWxsPSIjRkJCQzA1IiBkPSJNMCAzN1YxMWwxNyAxM3oiIGNsaXAtcGF0aD0idXJsKCNiKSIvPjxwYXRoIGZpbGw9IiNFQTQzMzUiIGQ9Im0wIDExIDE3IDEzIDctNi4xTDQ4IDE0VjBIMHoiIGNsaXAtcGF0aD0idXJsKCNiKSIvPjxwYXRoIGZpbGw9IiMzNEE4NTMiIGQ9Im0wIDM3IDMwLTIzIDcuOSAxTDQ4IDB2NDhIMHoiIGNsaXAtcGF0aD0idXJsKCNiKSIvPjxwYXRoIGZpbGw9IiM0Mjg1RjQiIGQ9Ik00OCA0OCAxNyAyNGwtNC0zIDM1LTEweiIgY2xpcC1wYXRoPSJ1cmwoI2IpIi8+PC9zdmc+"
+      },
+      "displayName": "Google Gemini Chat Model",
+      "typeVersion": 1,
+      "nodeCategories": [
+        {
+          "id": 25,
+          "name": "AI"
+        },
+        {
+          "id": 26,
+          "name": "Langchain"
+        }
+      ]
+    }
+  ]
+}
