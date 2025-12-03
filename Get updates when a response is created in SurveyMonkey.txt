@@ -1,0 +1,42 @@
+================================================================================
+WORKFLOW: Get updates when a response is created in SurveyMonkey
+================================================================================
+
+📋 BASIC INFORMATION
+------------------------------
+ID: 551
+Name: Get updates when a response is created in SurveyMonkey
+Total Views: 528
+Created At: 2020-07-23T00:12:41.076Z
+Purchase URL: None
+
+👤 AUTHOR INFORMATION
+------------------------------
+Name: amudhan
+Username: sm-amudhan
+Verified: ✅ Yes
+
+📝 DESCRIPTION
+------------------------------
+Companion workflow for SurveyMonkey node docs
+
+📊 RAW DATA (JSON)
+------------------------------
+{
+  "id": 551,
+  "name": "Get updates when a response is created in SurveyMonkey",
+  "totalViews": 528,
+  "purchaseUrl": null,
+  "user": {
+    "id": 5269,
+    "name": "amudhan",
+    "username": "sm-amudhan",
+    "bio": null,
+    "verified": true,
+    "links": "[]",
+    "avatar": "https://gravatar.com/avatar/7ee0febc0cbec2f1f6b24ddec3c4322e27c82c91dc729cfecf6ce12bfddd058d?r=pg&d=retro&size=200"
+  },
+  "description": "Companion workflow for SurveyMonkey node docs\n\n",
+  "createdAt": "2020-07-23T00:12:41.076Z",
+  "nodes": []
+}
