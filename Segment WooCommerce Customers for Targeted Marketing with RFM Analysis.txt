@@ -1,0 +1,238 @@
+================================================================================
+WORKFLOW: Segment WooCommerce Customers for Targeted Marketing with RFM Analysis
+================================================================================
+
+📋 BASIC INFORMATION
+------------------------------
+ID: 4880
+Name: Segment WooCommerce Customers for Targeted Marketing with RFM Analysis
+Total Views: 40
+Created At: 2025-06-11T17:58:53.119Z
+Purchase URL: None
+
+👤 AUTHOR INFORMATION
+------------------------------
+Name: Mohammadreza azari
+Username: mrazari
+Verified: ❌ No
+Links: 
+
+📝 DESCRIPTION
+------------------------------
+Overview
+
+This workflow is designed for eCommerce store owners and marketing teams who use WooCommerce. It helps segment customers based on their purchasing behavior using the RFM (Recency, Frequency, Monetary) model. By identifying high-value customers, new buyers, and at-risk segments, you can tailor your marketing strategies and improve customer retention.
+
+How It Works
+
+Trigger: The workflow can be started manually or on a scheduled basis (e.g., weekly).
+Retrieve Orders: It fetches completed orders from your WooCommerce store from the past year.
+RFM Analysis: It groups orders by customer and calculates their RFM scores.
+Customer Segmentation: Based on RFM scores, customers are categorized into marketing segments (e.g., Champions, At Risk, Lost).
+Summary Report: Generates a styled HTML report with a table summarizing customer segments and suggested marketing actions.
+
+Setup Instructions
+
+Connect WooCommerce:
+
+   Go to the WooCommerce node.
+   Add or select your WooCommerce API credentials. You need the Base URL, Consumer Key, and Consumer Secret.
+   Ensure API access is enabled in your WooCommerce settings.
+
+Customize Segmentation (Optional):
+
+   In the "Calculate RFM Scores" code node, you can adjust the logic that assigns segment labels based on score combinations.
+   You can also update the marketing suggestions in the second "Code" node.
+
+Run the Workflow:
+
+   Use the "Manual Start" node for testing.
+   Enable the "Weekly Trigger" node to automate execution.
+
+View Report:
+
+   The final HTML node outputs a complete styled report.
+   You can send this via email or integrate it with other services.
+
+Requirements
+
+WooCommerce store with API access enabled.
+Valid API credentials (Base URL, Consumer Key, Consumer Secret).
+n8n instance with access to the internet.
+
+🔧 NODES USED
+------------------------------
+• WooCommerce - Categories: Sales
+• Code - Categories: Core Nodes, Development
+• HTML - Categories: Core Nodes
+
+Total Nodes: 3
+
+📊 RAW DATA (JSON)
+------------------------------
+{
+  "id": 4880,
+  "name": "Segment WooCommerce Customers for Targeted Marketing with RFM Analysis",
+  "totalViews": 40,
+  "purchaseUrl": null,
+  "user": {
+    "id": 95073,
+    "name": "Mohammadreza azari",
+    "username": "mrazari",
+    "bio": "",
+    "verified": false,
+    "links": "[\"\"]",
+    "avatar": "https://gravatar.com/avatar/07ca413e08043e29e9738f610062a2ee9c1993409290dbd45c0ef18488b00bd6?r=pg&d=retro&size=200"
+  },
+  "description": "Overview\n\nThis workflow is designed for eCommerce store owners and marketing teams who use WooCommerce. It helps segment customers based on their purchasing behavior using the RFM (Recency, Frequency, Monetary) model. By identifying high-value customers, new buyers, and at-risk segments, you can tailor your marketing strategies and improve customer retention.\n\nHow It Works\n\nTrigger: The workflow can be started manually or on a scheduled basis (e.g., weekly).\nRetrieve Orders: It fetches completed orders from your WooCommerce store from the past year.\nRFM Analysis: It groups orders by customer and calculates their RFM scores.\nCustomer Segmentation: Based on RFM scores, customers are categorized into marketing segments (e.g., Champions, At Risk, Lost).\nSummary Report: Generates a styled HTML report with a table summarizing customer segments and suggested marketing actions.\n\nSetup Instructions\n\nConnect WooCommerce:\n\n   Go to the WooCommerce node.\n   Add or select your WooCommerce API credentials. You need the Base URL, Consumer Key, and Consumer Secret.\n   Ensure API access is enabled in your WooCommerce settings.\n\nCustomize Segmentation (Optional):\n\n   In the \"Calculate RFM Scores\" code node, you can adjust the logic that assigns segment labels based on score combinations.\n   You can also update the marketing suggestions in the second \"Code\" node.\n\nRun the Workflow:\n\n   Use the \"Manual Start\" node for testing.\n   Enable the \"Weekly Trigger\" node to automate execution.\n\nView Report:\n\n   The final HTML node outputs a complete styled report.\n   You can send this via email or integrate it with other services.\n\nRequirements\n\nWooCommerce store with API access enabled.\nValid API credentials (Base URL, Consumer Key, Consumer Secret).\nn8n instance with access to the internet.",
+  "createdAt": "2025-06-11T17:58:53.119Z",
+  "nodes": [
+    {
+      "id": 298,
+      "icon": "file:wooCommerce.svg",
+      "name": "n8n-nodes-base.wooCommerce",
+      "codex": {
+        "data": {
+          "resources": {
+            "primaryDocumentation": [
+              {
+                "url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.woocommerce/"
+              }
+            ],
+            "credentialDocumentation": [
+              {
+                "url": "https://docs.n8n.io/integrations/builtin/credentials/wooCommerce/"
+              }
+            ]
+          },
+          "categories": [
+            "Sales"
+          ],
+          "nodeVersion": "1.0",
+          "codexVersion": "1.0"
+        }
+      },
+      "group": "[\"output\"]",
+      "defaults": {
+        "name": "WooCommerce"
+      },
+      "iconData": {
+        "type": "file",
+        "fileBuffer": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIiB2aWV3Qm94PSIwIC01MCAyNTYgMjUzIj48cGF0aCBmaWxsPSIjN2Y1NGIzIiBkPSJNMjMuNzU5IDBoMjA4LjM4YzEzLjE4NyAwIDIzLjg2MyAxMC42NzUgMjMuODYzIDIzLjg2M3Y3OS41NDJjMCAxMy4xODctMTAuNjc1IDIzLjg2My0yMy44NjMgMjMuODYzaC03NC43MjdsMTAuMjU3IDI1LjExOC00NS4xMDktMjUuMTE4SDIzLjg2NWMtMTMuMTg3IDAtMjMuODYzLTEwLjY3NS0yMy44NjMtMjMuODYzVjIzLjg2M0MtLjEwMyAxMC43OCAxMC41NzMgMCAyMy43NiAweiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xNC41NzggMjEuNzVjMS40NTctMS45NzcgMy42NDItMy4wMTggNi41NTYtMy4yMjZxNy45Ni0uNjI1IDkuMDU0IDcuNDkzYzMuMjI2IDIxLjc1IDYuNzY0IDQwLjE2OSAxMC41MSA1NS4yNTlsMjIuNzktNDMuMzk1cTMuMTIzLTUuOTMyIDcuODA2LTYuMjQ0YzQuNTc5LS4zMTIgNy4zODggMi42MDEgOC41MzMgOC43NDEgMi42MDIgMTMuODQxIDUuOTMyIDI1LjYgOS44ODYgMzUuNTkgMi43MDYtMjYuNDMzIDcuMjg1LTQ1LjQ3NiAxMy43MzctNTcuMjM2IDEuNTYxLTIuOTEzIDMuODUtNC4zNyA2Ljg2OC00LjU3OSAyLjM5NC0uMjA4IDQuNTguNTIgNi41NTcgMi4wODIgMS45NzcgMS41NiAzLjAxOCAzLjUzOCAzLjIyNiA1LjkzMS4xMDQgMS44NzQtLjIwOSAzLjQzNC0xLjA0MSA0Ljk5NS00LjA1OSA3LjQ5My03LjM4OSAyMC4wODYtMTAuMDk0IDM3LjU2Ny0yLjYwMiAxNi45NjQtMy41MzggMzAuMTgtMi45MTQgMzkuNjVxLjMxMiAzLjkwMS0xLjI0OSA2Ljg2OGMtMS4yNDggMi4yOS0zLjEyMiAzLjUzOC01LjUxNSAzLjc0Ni0yLjcwNi4yMDgtNS41MTUtMS4wNC04LjIyMS0zLjg1LTkuNjc4LTkuODg2LTE3LjM4LTI0LjY2My0yMi45OTgtNDQuMzMyUTU3LjkyMiA4Ni43OSA1My4wODQgOTYuNzhjLTYuMTQgMTEuNzYtMTEuMzQzIDE3Ljc5Ni0xNS43MTQgMTguMTA4LTIuODEuMjA4LTUuMjAzLTIuMTg2LTcuMjg1LTcuMThxLTcuOTYtMjAuNDUtMTcuMTctNzguOTg2Yy0uNDE3LTIuNzA1LjIwNy01LjA5OSAxLjY2NC02Ljk3MnptMjIzLjY0IDE2LjMzOGMtMy43NDYtNi41NTYtOS4yNjItMTAuNTExLTE2LjY1LTEyLjA3MnEtMi45NjUtLjYyNC01LjYyLS42MjRjLTkuOTkgMC0xOC4xMDcgNS4yMDMtMjQuNDU1IDE1LjYxcS04LjExNiAxMy4yNjgtOC4xMTcgMjkuMzQ2IDAgMTIuMDE4IDQuOTk1IDIwLjYwNWMzLjc0NyA2LjU1NiA5LjI2MiAxMC41MSAxNi42NSAxMi4wNzJxMi45NjYuNjI0IDUuNjIuNjI0YzEwLjA5NCAwIDE4LjIxMS01LjIwMyAyNC40NTUtMTUuNjEgNS40MTEtOC45NSA4LjExNy0xOC43MzIgOC4xMTctMjkuNDUuMTA0LTguMTE3LTEuNjY1LTE0Ljg4MS00Ljk5NS0yMC41MDFtLTEzLjExMiAyOC44MjZjLTEuNDU3IDYuODY4LTQuMDU5IDExLjk2Ny03LjkwOSAxNS40MDItMy4wMTggMi43MDYtNS44MjcgMy44NS04LjQzIDMuMzMtMi40OTctLjUyLTQuNTc4LTIuNzA2LTYuMTM5LTYuNzY0LTEuMjQ5LTMuMjI2LTEuODczLTYuNDUyLTEuODczLTkuNDcgMC0yLjYwMi4yMDgtNS4yMDMuNzI4LTcuNTk3LjkzNy00LjI2NiAyLjcwNi04LjQyOSA1LjUxNi0xMi4zODQgMy40MzQtNS4wOTkgNy4wNzYtNy4xOCAxMC44MjMtNi40NTIgMi40OTcuNTIgNC41NzkgMi43MDYgNi4xNCA2Ljc2NSAxLjI0OCAzLjIyNiAxLjg3MyA2LjQ1MiAxLjg3MyA5LjQ3IDAgMi43MDUtLjIwOCA1LjMwNy0uNzI5IDcuN3ptLTUyLjAzMy0yOC44MjZjLTMuNzQ2LTYuNTU2LTkuMzY2LTEwLjUxMS0xNi42NS0xMi4wNzJxLTIuOTY1LS42MjQtNS42Mi0uNjI0Yy05Ljk5IDAtMTguMTA3IDUuMjAzLTI0LjQ1NSAxNS42MXEtOC4xMTYgMTMuMjY4LTguMTE3IDI5LjM0NiAwIDEyLjAxOCA0Ljk5NSAyMC42MDVjMy43NDcgNi41NTYgOS4yNjIgMTAuNTEgMTYuNjUgMTIuMDcycTIuOTY2LjYyNCA1LjYyLjYyNGMxMC4wOTQgMCAxOC4yMTEtNS4yMDMgMjQuNDU1LTE1LjYxIDUuNDExLTguOTUgOC4xMTctMTguNzMyIDguMTE3LTI5LjQ1IDAtOC4xMTctMS42NjUtMTQuODgxLTQuOTk1LTIwLjUwMW0tMTMuMjE2IDI4LjgyNmMtMS40NTcgNi44NjgtNC4wNTkgMTEuOTY3LTcuOTA5IDE1LjQwMi0zLjAxOCAyLjcwNi01LjgyOCAzLjg1LTguNDMgMy4zMy0yLjQ5Ny0uNTItNC41NzgtMi43MDYtNi4xMzktNi43NjQtMS4yNDktMy4yMjYtMS44NzMtNi40NTItMS44NzMtOS40NyAwLTIuNjAyLjIwOC01LjIwMy43MjgtNy41OTcuOTM3LTQuMjY2IDIuNzA2LTguNDI5IDUuNTE2LTEyLjM4NCAzLjQzNC01LjA5OSA3LjA3Ni03LjE4IDEwLjgyMy02LjQ1MiAyLjQ5Ny41MiA0LjU3OSAyLjcwNiA2LjE0IDYuNzY1IDEuMjQ4IDMuMjI2IDEuODczIDYuNDUyIDEuODczIDkuNDcuMTA0IDIuNzA1LS4yMDggNS4zMDctLjcyOSA3Ljd6Ii8+PC9zdmc+"
+      },
+      "displayName": "WooCommerce",
+      "typeVersion": 1,
+      "nodeCategories": [
+        {
+          "id": 2,
+          "name": "Sales"
+        }
+      ]
+    },
+    {
+      "id": 834,
+      "icon": "file:code.svg",
+      "name": "n8n-nodes-base.code",
+      "codex": {
+        "data": {
+          "alias": [
+            "cpde",
+            "Javascript",
+            "JS",
+            "Python",
+            "Script",
+            "Custom Code",
+            "Function"
+          ],
+          "details": "The Code node allows you to execute JavaScript in your workflow.",
+          "resources": {
+            "primaryDocumentation": [
+              {
+                "url": "https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.code/"
+              }
+            ]
+          },
+          "categories": [
+            "Development",
+            "Core Nodes"
+          ],
+          "nodeVersion": "1.0",
+          "codexVersion": "1.0",
+          "subcategories": {
+            "Core Nodes": [
+              "Helpers",
+              "Data Transformation"
+            ]
+          }
+        }
+      },
+      "group": "[\"transform\"]",
+      "defaults": {
+        "name": "Code"
+      },
+      "iconData": {
+        "type": "file",
+        "fileBuffer": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF8xMTcxXzQ0MSkiPgo8cGF0aCBkPSJNMTcwLjI4MyA0OEgxOTYuNUMyMDMuMTI3IDQ4IDIwOC41IDQyLjYyNzQgMjA4LjUgMzZWMTJDMjA4LjUgNS4zNzI1OCAyMDMuMTI3IDAgMTk2LjUgMEgxNzAuMjgzQzEyNi4xIDAgOTAuMjgzIDM1LjgxNzIgOTAuMjgzIDgwVjE3NkM5MC4yODMgMjA2LjkyOCA2NS4yMTA5IDIzMiAzNC4yODMgMjMySDIzQzE2LjM3MjYgMjMyIDExIDIzNy4zNzIgMTEgMjQ0VjI2OEMxMSAyNzQuNjI3IDE2LjM3MjQgMjgwIDIyLjk5OTYgMjgwTDM0LjI4MyAyODBDNjUuMjEwOSAyODAgOTAuMjgzIDMwNS4wNzIgOTAuMjgzIDMzNlY0NDBDOTAuMjgzIDQ3OS43NjQgMTIyLjUxOCA1MTIgMTYyLjI4MyA1MTJIMTk2LjVDMjAzLjEyNyA1MTIgMjA4LjUgNTA2LjYyNyAyMDguNSA1MDBWNDc2QzIwOC41IDQ2OS4zNzMgMjAzLjEyNyA0NjQgMTk2LjUgNDY0SDE2Mi4yODNDMTQ5LjAyOCA0NjQgMTM4LjI4MyA0NTMuMjU1IDEzOC4yODMgNDQwVjMzNkMxMzguMjgzIDMwOS4wMjIgMTI4LjAxMSAyODQuNDQzIDExMS4xNjQgMjY1Ljk2MUMxMDYuMTA5IDI2MC40MTYgMTA2LjEwOSAyNTEuNTg0IDExMS4xNjQgMjQ2LjAzOUMxMjguMDExIDIyNy41NTcgMTM4LjI4MyAyMDIuOTc4IDEzOC4yODMgMTc2VjgwQzEzOC4yODMgNjIuMzI2OSAxNTIuNjEgNDggMTcwLjI4MyA0OFoiIGZpbGw9IiNGRjk5MjIiLz4KPHBhdGggZD0iTTMwNSAzNkMzMDUgNDIuNjI3NCAzMTAuMzczIDQ4IDMxNyA0OEgzNDIuOTc5QzM2MC42NTIgNDggMzc0Ljk3OCA2Mi4zMjY5IDM3NC45NzggODBWMTc2QzM3NC45NzggMjAyLjk3OCAzODUuMjUxIDIyNy41NTcgNDAyLjA5OCAyNDYuMDM5QzQwNy4xNTMgMjUxLjU4NCA0MDcuMTUzIDI2MC40MTYgNDAyLjA5OCAyNjUuOTYxQzM4NS4yNTEgMjg0LjQ0MyAzNzQuOTc4IDMwOS4wMjIgMzc0Ljk3OCAzMzZWNDMyQzM3NC45NzggNDQ5LjY3MyAzNjAuNjUyIDQ2NCAzNDIuOTc5IDQ2NEgzMTdDMzEwLjM3MyA0NjQgMzA1IDQ2OS4zNzMgMzA1IDQ3NlY1MDBDMzA1IDUwNi42MjcgMzEwLjM3MyA1MTIgMzE3IDUxMkgzNDIuOTc5QzM4Ny4xNjEgNTEyIDQyMi45NzggNDc2LjE4MyA0MjIuOTc4IDQzMlYzMzZDNDIyLjk3OCAzMDUuMDcyIDQ0OC4wNTEgMjgwIDQ3OC45NzkgMjgwSDQ5MEM0OTYuNjI3IDI4MCA1MDIgMjc0LjYyOCA1MDIgMjY4VjI0NEM1MDIgMjM3LjM3MyA0OTYuNjI4IDIzMiA0OTAgMjMyTDQ3OC45NzkgMjMyQzQ0OC4wNTEgMjMyIDQyMi45NzggMjA2LjkyOCA0MjIuOTc4IDE3NlY4MEM0MjIuOTc4IDM1LjgxNzIgMzg3LjE2MSAwIDM0Mi45NzkgMEgzMTdDMzEwLjM3MyAwIDMwNSA1LjM3MjU4IDMwNSAxMlYzNloiIGZpbGw9IiNGRjk5MjIiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xMTcxXzQ0MSI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo="
+      },
+      "displayName": "Code",
+      "typeVersion": 2,
+      "nodeCategories": [
+        {
+          "id": 5,
+          "name": "Development"
+        },
+        {
+          "id": 9,
+          "name": "Core Nodes"
+        }
+      ]
+    },
+    {
+      "id": 842,
+      "icon": "file:html.svg",
+      "name": "n8n-nodes-base.html",
+      "codex": {
+        "data": {
+          "alias": [
+            "extract",
+            "template",
+            "table"
+          ],
+          "resources": {
+            "primaryDocumentation": [
+              {
+                "url": "https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.html/"
+              }
+            ]
+          },
+          "categories": [
+            "Core Nodes"
+          ],
+          "nodeVersion": "1.0",
+          "codexVersion": "1.0",
+          "subcategories": {
+            "Core Nodes": [
+              "Data Transformation"
+            ]
+          }
+        }
+      },
+      "group": "[\"transform\"]",
+      "defaults": {
+        "name": "HTML"
+      },
+      "iconData": {
+        "type": "file",
+        "fileBuffer": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTguNjQwNjIgMEgxMC40Mzc1VjEuNzgxMjVIMTIuMDkzN1YwSDEzLjg5MDZWNS4zOTA2MkgxMi4wOTM3VjMuNTkzNzVIMTAuNDUzMVY1LjM5MDYySDguNjQwNjJNMTYuMjY1NiAxLjc5Njg3SDE0LjY3OTdWMEgxOS42NTYyVjEuNzk2ODdIMTguMDYyNVY1LjM5MDYySDE2LjI2NTZNMjAuNDQ1MyAwSDIyLjMyODFMMjMuNDg0NCAxLjg5ODQ0TDI0LjY0MDYgMEgyNi41MjM0VjUuMzkwNjJIMjQuNzI2NlYyLjcxODc1TDIzLjQ2ODcgNC42NTYyNUwyMi4yMTA5IDIuNzE4NzVWNS4zOTA2MkgyMC40NDUzTTI3LjQxNDEgMEgyOS4yMTA5VjMuNjA5MzdIMzEuNzU3OFY1LjM5MDYySDI3LjQxNDEiIGZpbGw9ImJsYWNrIi8+CjxwYXRoIGQ9Ik04LjU3ODEyIDM2Ljc5NjlMNiA3Ljg1OTM4SDM0LjM0MzdMMzEuNzY1NiAzNi43ODEyTDIwLjE0ODQgNDAiIGZpbGw9IiNFNDREMjYiLz4KPHBhdGggZD0iTTIwLjE3MTkgMzcuNTM5MVYxMC4yMzQ0SDMxLjc1NzhMMjkuNTQ2OSAzNC45MjE5IiBmaWxsPSIjRjE2NTI5Ii8+CjxwYXRoIGQ9Ik0xMS4yNjU2IDEzLjc3MzRIMjAuMTcxOVYxNy4zMjAzSDE1LjE1NjJMMTUuNDg0NCAyMC45NTMxSDIwLjE3MTlWMjQuNDkyMkgxMi4yMzQ0TTEyLjM5MDYgMjYuMjczNEgxNS45NTMxTDE2LjIwMzEgMjkuMTA5NEwyMC4xNzE5IDMwLjE3MTlWMzMuODc1TDEyLjg5MDYgMzEuODQzNyIgZmlsbD0iI0VCRUJFQiIvPgo8cGF0aCBkPSJNMjkuMDQ2OSAxMy43NzM0SDIwLjE1NjJWMTcuMzIwM0gyOC43MTg3TTI4LjM5ODQgMjAuOTUzMUgyMC4xNTYyVjI0LjVIMjQuNTMxMkwyNC4xMTcyIDI5LjEwOTRMMjAuMTU2MiAzMC4xNzE5VjMzLjg1OTRMMjcuNDIxOSAzMS44NDM3IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"
+      },
+      "displayName": "HTML",
+      "typeVersion": 1,
+      "nodeCategories": [
+        {
+          "id": 9,
+          "name": "Core Nodes"
+        }
+      ]
+    }
+  ]
+}
